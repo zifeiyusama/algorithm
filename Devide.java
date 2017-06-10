@@ -8,7 +8,7 @@ public class Devide {
         System.out.println("2.初始化数据");
         Devide devide = new Devide();
         System.out.println(devide.num);
-        System.out.println("3.将数组按照x坐标生序排列");
+        System.out.println("3.将数组按照x坐标升序排列");
         Collections.sort(devide.num, new Comparator<Point>() {
             public int compare(Point arg0, Point arg1) {
                 return arg0.x > arg1.x ? 1 : -1;
