@@ -17,7 +17,7 @@ public class Devide {
         System.out.println(devide.num);
         System.out.println("4.寻找最近点对");
         Result result = devide.nearestPair(0, devide.num.size() - 1);
-        System.out.println("4.打印结果");
+        System.out.println("5.打印结果");
         System.out.println(result);
     }
 
